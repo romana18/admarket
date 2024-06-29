@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { signUp, isUserValid } from '../../../lib/pocketbase';
+import { signUp, isUserValid } from '../../../lib/pocket';
 import { useNavigate } from 'react-router-dom';
 
 function SignUp() {

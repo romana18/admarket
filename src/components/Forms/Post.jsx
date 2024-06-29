@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { post, userslist, isUserValid } from '../../../lib/pocketbase';
+import { post, userslist, isUserValid } from '../../../lib/pocket';
 import Admcontext from '../../context/admcontext';
 
 function Post() {

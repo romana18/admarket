@@ -8,8 +8,6 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Test from './components/Test.jsx'
 import SignUp from './components/Forms/SignUp.jsx'
 import LogIn from './components/Forms/LogIn.jsx'
-
-import { isUserValid } from '../lib/pocketbase.js'
 import Dashboard from './components/dashboard/Dashboard.jsx'
 import Post from './components/Forms/Post.jsx'
 import Profile from './components/profile/Profile.jsx'

@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import Admcontext from '../../context/admcontext';
-import { isUserValid } from '../../../lib/pocketbase';
+import { isUserValid } from '../../../lib/pocket';
 
 const productImage = (productName) => {
     switch (productName.toLowerCase()) {

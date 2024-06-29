@@ -1,8 +1,8 @@
 import React, { useEffect, useState, useContext } from 'react';
-import { profilelist, userslist, delpost, updatepost, logIn } from '../../../lib/pocketbase';
+import { profilelist, userslist, delpost, updatepost, logIn } from '../../../lib/pocket';
 import { IoSearch } from "react-icons/io5";
 import { Card, CardBody, CardFooter, Image,Modal, ModalContent, ModalHeader, Button,ModalBody,Select, SelectItem, useDisclosure } from "@nextui-org/react";
-import { isUserValid } from '../../../lib/pocketbase';
+import { isUserValid } from '../../../lib/pocket';
 import { useNavigate } from 'react-router-dom';
 import LogIn from '../Forms/LogIn';
 import Admcontext from '../../context/admcontext';

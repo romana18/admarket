@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useContext } from 'react';
 import { Card, CardBody, CardFooter, Image } from '@nextui-org/react';
-import { profilelist, isUserValid } from '../../../lib/pocketbase';
+import { profilelist, isUserValid } from '../../../lib/pocket';
 import { getRelativeTime } from './useDate';
 import { useNavigate } from 'react-router-dom';
 import Admcontext from '../../context/admcontext';

@@ -7,8 +7,8 @@ import { IoSearch } from "react-icons/io5";
 import { CgMenuGridR } from "react-icons/cg";
 import { IoMdAdd } from "react-icons/io";
 import { CgProfile } from "react-icons/cg";
-import { isUserValid } from "../../../lib/pocket_local";
-import { logOut } from "../../../lib/pocket_local";
+import { isUserValid } from "../../../lib/pocket";
+import { logOut } from "../../../lib/pocket";
 import Admcontext from '../../context/admcontext';
 function Nav() {
 

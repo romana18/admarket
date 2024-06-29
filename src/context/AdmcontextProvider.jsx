@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Admcontext from './admcontext';
-import { profilelist, userslist } from '../../lib/pocketbase';
+import { profilelist, userslist } from '../../lib/pocket';
 
 function AdmcontextProvider({ children }) {
     const [prodname, setProdname] = useState("blank");
