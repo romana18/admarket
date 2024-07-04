@@ -190,7 +190,7 @@ const cities = [
     </ul>
 
     {/* Select component */}
-     <div className="w-72 "> {/* Adjust the width as needed */}
+    {isUserValid? <> <div className="w-72 "> {/* Adjust the width as needed */}
     <Select
 
       placeholder="Region"
@@ -204,7 +204,7 @@ const cities = [
     >
         {Array.isArray(cities) && cities.map((city,index) => (<SelectItem className="w-40" key={index} >{city}</SelectItem>))}
       </Select>
-    </div>
+    </div></> :<> </>}
    
   </div>
             </nav>
